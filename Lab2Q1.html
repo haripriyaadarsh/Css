@@ -1,0 +1,217 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="a login page pgm">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keywords" content="html/CSS">
+	<title>
+		A simple web page created using internal css
+	</title>
+	<style type="text/css">
+.first1{
+      top: 0px;
+ 	  height:175px;
+      width:100%;
+      background:gainsboro;
+     float: left;
+    }
+ .second1{
+ 	float: left;
+      border:solid white;
+      top:200px;
+      width:100%;
+      height:950px;
+      background:white;
+    }
+  .third1{
+      width:100%;
+      top:1125px;
+     float:left;
+      height:325px;
+      background:gainsboro;
+  }
+#grad1{
+  height:175px;
+  width: 100%;
+  background-color:gainsboro;
+  background-image:linear-gradient(to top,gainsboro,white);
+}
+#grad3{
+  height:325px;
+  width:100%;
+  background-color:gainsboro;
+  background-image:linear-gradient(to bottom,gainsboro,white);
+}
+.ppos{
+	padding-left:50%;
+	}
+	mark{
+   	background-color:sandybrown;
+   } 
+   span{
+   	color:blue;
+   } 
+   .lpos{
+   	padding-top:50px;
+   	padding-left:20%;
+   } 
+   .spos{
+   	padding-top:10px;
+   	padding-left:35%;
+   	padding-right:15%; 
+   	position: absolute;
+   float:right; 
+   } 
+   .tab1align{
+   	margin-right: 25px;
+   	position: relative;
+   	border:1px solid gainsboro;
+   	width:200px;
+   	left:15%;
+   	padding-left:8px;
+   	margin-top:45px;
+   	background: whitesmoke;
+   	float:left;
+   } 
+   #tralign{
+   	margin-top:0px; 
+  height:300px;
+  width:650px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid mediumblue;
+   	background:lavender; 
+   }
+   th{
+   	text-align:left;
+   }
+   .th2{
+   	background-color: white;
+   }
+	</style>
+</head>
+	<body style="overflow:auto;"><!--1st session-->
+	<div class="first1" id="grad1">
+		<img src="https://www.iana.org/_img/2013.1/iana-logo-header.svg" alt="iana logo" style="width:250px;height:100px;padding-left:20%;padding-top:35px;">
+		<div>
+<strong><a class="ppos">DOMAINS</a>
+&emsp;<a>NUMBERS</a>
+&emsp;<a>PROTOCOLS</a>
+&emsp;<a>ABOUT US</a></strong>
+</div>
+	</div>
+	<div class="second1"><!--2nd session with 2 tables-->
+		<div class="tab1align"><table>
+		<tr style="background-color:gainsboro;"><th>Domain Names</th></tr>
+		<tr><td>Overview</td></tr>
+		<tr><td>Root Zone Management</td></tr>
+		<tr><td>.INT Registry</td></tr>
+		<tr><td>.ARPA Registry</td></tr>
+		<tr><td>IDN Practices Repository</td></tr>
+		<tr><td>Root Key Singing Key(DNSSEC)</td></tr>
+		<tr><td><strong>Reserved Domains</strong></td></tr>
+	</table>
+	</div>
+		<div class="spos"><header><h1>IANA-managed Reserved Domains</h1></header>
+		<p><h4>Certain domains are set aside, and nominally registered to “IANA”, for specific policy or technical purposes.</h4></p>
+		<section><h2>Example domains</h2>
+			<article><p><h4>As described in <span>RFC 2606 </span>and<span> RFC 6761</span>, a number of domains such as <mark>example.com </mark> and<mark> example.org </mark>are maintained for documentation purposes. These domains may be used as illustrative examples in documents without prior coordination with us. They are not available for registration or transfer.</h4></p>
+			<h2>Test IDN top-level domains</h2>
+			<p><h4>These domains were temporarily delegated by IANA for the <span>IDN Evaluation </span>being conducted by <span>ICANN</span>.</h4></p>
+			<table id="tralign">
+         <tr class="th2">
+            <th>DOMAIN</th>
+            <th>DOMAIN(A-LABEL)</th>
+            <th>LANGUAGE</th>
+            <th>SCRIPT</th>
+         </tr>
+         <tr>
+            <td>إختبار</td>
+            <td><mark>xn--kgbechtv</mark></td>
+            <td>Arabic</td>
+            <td>Arabic</td>
+         </tr>
+         <tr>
+            <td>آزمایشی</td>
+            <td><mark>xn--hgbk6aj7f53bba</mark></td>
+            <td>Persian</td>
+            <td>Arabic</td>
+         </tr>
+         <tr>
+         	<td>测试</td>
+         	<td><mark>xn--0zwm56d</mark></td>
+         	<td>Chinese</td>
+         	<td>Han(Simplified variant)</td>
+         </tr>
+         <tr>
+         	<td>測試</td>
+         	<td><mark>xn--g6w251d</mark></td>
+         	<td>Chinese</td>
+         	<td>Han(Traditional variant)</td>
+         </tr>
+         <tr>
+         	<td>испытание</td>
+         	<td><mark>xn--80akhbyknj4f</mark></td>
+         	<td>Russian</td>
+         	<td>Cyrillic</td>
+         </tr>
+         <tr>
+         	<td>परीक्षा</td>
+         	<td><mark>xn--11b5bs3a9aj6g</mark></td>
+         	<td>Hindi</td>
+         	<td>Devanagari(Nagari)</td>
+         </tr>
+         <tr>
+         	<td>δοκιμή</td>
+         	<td><mark>xn--jxalpdlp</mark></td>
+         	<td>Greek, Modern(1453-)</td>
+         	<td>Greek</td>
+         </tr>
+         <tr>
+         	<td>테스트</td>
+         	<td><mark>xn--9t4b11yi5a</mark></td>
+         	<td>Korean</td>
+         	<td>Hangul(Hangul, Hangeul)</td>
+         </tr>
+         <tr>
+         	<td>טעסט</td>
+         	<td><mark>xn--deba0ad</mark></td>
+         	<td>Yiddish</td>
+         	<td>Hebrew</td>
+         </tr>
+         <tr>
+         	<td>テスト</td>
+         	<td><mark>xn--zckzah</mark></td>
+         	<td>Japanese</td>
+         	<td>Katakana</td>
+         </tr>
+         <tr>
+         	<td>பரிட்சை</td>
+         	<td><mark>xn--hlcj6aya9esc7a</mark></td>
+         	<td>Tamil</td>
+         	<td>Tamil</td>
+         </tr>
+      </table>
+      <h2>Policy-reserved domains</h2>
+      <p><h4>We act as both the registrant and registrar for a select number of domains which have been reserved under policy grounds. These exclusions are typically indicated in either technical standards (RFC documents), or <span>contractual limitations</span>.</h4></p>
+<p><h4>Domains which are described as registered to IANA or ICANN on policy grounds are not available for registration or transfer, with the exception of <mark>country-name</mark>.info domains. These domains are available for release by the ICANN Governmental Advisory Committee Secretariat.</h4></p>
+<h2>Other Special-Use Domains
+</h2>
+<p><h4>There is additionally a <span>Special-Use Domain Names </span>registry documenting special-use domains designated by technical standards. For further information, see <span>Special-Use Domain Names </span>(RFC 6761).
+</h4></p>
+			</article>
+		</section>
+	</div></div>
+	<div class="third1" id="grad3"><!--3rd session-->
+		<div class="lpos">
+			<a><strong>Domain Names</strong></a>
+			&emsp;&emsp;<a>RootZone Registry</a>&ensp;<a>.INT Registry</a>&ensp;<a>.ARPA Registry</a>&ensp;<a>IDN Repository</a>
+			<p><a><strong>Number Resources</strong></a>&emsp;&emsp;<a>Abuse Information</a></p>
+			<p><a><strong>Protocols</strong></a>&emsp;&emsp;<a>Protocol Registeries</a>&ensp;<a>Time Zone Database</a></p>
+			<p><a><strong>About Us</strong></a>&emsp;&emsp;<a>Presentations</a>&ensp;<a>Reports</a>&ensp;<a>Performance</a>&ensp;<a>Reviews</a>&ensp;<a>Excellence</a>&ensp;<a>Contact Us</a></p>
+			<footer>The IANA functions coordinate the Internet’s globally unique identifiers, and are provided by<strong> Public Technical Identifiers</strong>, an affiliate of <strong>ICANN.</strong></footer><br><br>
+			<a><strong>Privacy Policy</strong></a>&ensp;<a><strong>Terms of Service</strong></a>
+		</div>
+	</div>
+</body>
+</html>

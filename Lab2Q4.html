@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="tabledetails">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keywords" content="html/CSS">
+	<link rel="stylesheet" type="text/CSS" href="table.CSS">
+	<title>
+		A table containing customer details
+	</title>
+</head>
+<body>
+	<form action="/action_page.php">
+	<label for="show">Show</label>
+    <select id="show" name="show">
+    	<option value="5" selected>5</option>	
+    </select>
+    <label for="entries">entries</label>
+    <div class="button">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <button type="submit"><i class="fa fa-search"></i></button>
+  <input type="text" placeholder="Search.." name="search"></div>
+</form>
+<h3>Customer <b>Details</b></h3>
+<table>
+	<tr>
+		<th>#</th>
+		<th>Name &diams;</th>
+		<th>Address</th>
+		<th>City &diams;</th>
+		<th>Pin Code</th>
+		<th>Country &diams;</th>
+		<th>Actions</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Thomas Hardy</td>
+		<td>89 Chiaroscuro Rd.</td>
+		<td>Portland</td>
+		<td>97219</td>
+		<td>USA</td>
+		<td>&emsp;<i style="color:blue;" class="fa fa-eye">&emsp;<i style="color:yellow;" class="fa fa-pencil">&emsp;<i style="color:red;" class="fa fa-trash"></i></i></i></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Maria Anders</td>
+		<td>Obere Str.57</td>
+		<td>Berlin</td>
+		<td>12209</td>
+		<td>Germany</td>
+		<td>&emsp;<i style="color:blue;" class="fa fa-eye">&emsp;<i style="color:yellow;" class="fa fa-pencil">&emsp;<i style="color:red;"  class="fa fa-trash"></i></i></i>
+</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Fran Wilson</td>
+		<td>C/ Araquil,67</td>
+		<td>Madrid</td>
+		<td>28023</td>
+		<td>Spain</td>
+		<td>&emsp;<i style="color:blue;" class="fa fa-eye">&emsp;<i style="color:yellow;" class="fa fa-pencil">&emsp;<i style="color:red;" class="fa fa-trash"></i></i></i>
+</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>Dominique Perrier</td>
+		<td>25,rue Lauriston</td>
+		<td>Paris</td>
+		<td>75016</td>
+		<td>France</td>
+		<td>&emsp;<i style="color:blue;" class="fa fa-eye">&emsp;<i style="color:yellow;" class="fa fa-pencil">&emsp;<i style="color:red;" class="fa fa-trash"></i></i></i>
+</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>Martin Blank</td>
+		<td>Via Monte Bianco 34</td>
+		<td>Turin</td>
+		<td>10100</td>
+		<td>Italy</td>
+		<td>&emsp;<i style="color:blue;" class="fa fa-eye">&emsp;<i style="color:yellow;" class="fa fa-pencil">&emsp;<i style="color:red;" class="fa fa-trash"></i></i></i></td>
+	</tr>
+</table>
+	<div><h4>Showing 5 out of 25 entries</h4>
+	<h4 style="text-align:right;">Previous  1  2  <span class="blue">3</span> 4  5  Next</h4></div>
+</body>
+</html>
